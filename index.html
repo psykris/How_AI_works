@@ -424,11 +424,10 @@ const LAYERS = [
     {y:"2030",v:200,label:"$200B",p:1},
   ],
   resources:[
-    {title:"Chip War  -  Chris Miller",url:"https://www.chipwarbook.com/",desc:"The story of how the world became dependent on semiconductors, written like a thriller. Explains why Taiwan controls the world's most important factories and why governments are alarmed.",domain:"chipwarbook.com"},
+    {title:"Chip War  -  Chris Miller",url:"https://www.aei.org/research-products/book/chip-war/",desc:"The story of how the world became dependent on semiconductors, written like a thriller. Explains why Taiwan controls the world's most important factories and why governments are alarmed.",domain:"chipwarbook.com"},
     {title:"Epoch AI: Compute Tracker",url:"https://epochai.org/data/notable-ai-models",desc:"A live database showing how much computing power trained every major AI model. The trend line going up and to the right is the single most important chart in AI. Bookmark it.",domain:"epochai.org"},
     {title:"SemiAnalysis Newsletter",url:"https://semianalysis.com/",desc:"Deep technical analysis of chip supply chains and GPU architectures. Free articles available. Where industry insiders actually get their information.",domain:"semianalysis.com"},
-    {title:"NVIDIA GTC 2024 Keynote",url:"https://www.nvidia.com/en-us/events/gtc/",desc:"Watch Jensen Huang reveal new chips live. It has become the AI equivalent of an Apple event  -  except the audience is engineers, not consumers, and the stakes are considerably higher.",domain:"nvidia.com"},
-    {title:"WikiChip: H100 Architecture",url:"https://en.wikichip.org/wiki/WikiChip",desc:"Detailed technical breakdown of exactly what is inside NVIDIA's flagship AI chip  -  what makes it fast, how memory works, and why competitors struggle to replicate it.",domain:"en.wikichip.org"},
+    {title:"WikiChip: NVIDIA Hopper Architecture",url:"https://developer.nvidia.com/blog/nvidia-hopper-architecture-in-depth/",desc:"Detailed technical breakdown of exactly what is inside NVIDIA's flagship AI chip  -  what makes it fast, how memory works, and why competitors struggle to replicate it.",domain:"en.wikichip.org"},
   ],
 },
 {
@@ -468,9 +467,8 @@ const LAYERS = [
   resources:[
     {title:"IEA: Electricity 2025 Report",url:"https://www.iea.org/reports/electricity-2025",desc:"The International Energy Agency's official forecast for global electricity use, with a major focus on AI data centers. The most credible numbers on how much power AI will consume through 2027.",domain:"iea.org"},
     {title:"Data Center Knowledge",url:"https://www.datacenterknowledge.com/",desc:"Industry publication covering every new data center build, power deal, and technology shift. Subscribe to the newsletter to watch this industry develop week by week.",domain:"datacenterknowledge.com"},
-    {title:"Synergy Research: Cloud Market Share",url:"https://www.srgresearch.com/articles/",desc:"Quarterly breakdown of exactly how much revenue AWS, Azure, and Google Cloud each generate. The definitive scoreboard for the cloud market.",domain:"srgresearch.com"},
     {title:"Lawrence Berkeley Lab: US Data Center Energy",url:"https://eta.lbl.gov/publications/united-states-data-center-energy",desc:"The US government's official study on data center energy consumption. Used in Congressional testimony and the most cited baseline for energy forecasting.",domain:"eta.lbl.gov"},
-    {title:"Cloudpundit  -  Rhonda Ascierto",url:"https://cloudpundit.com/",desc:"Independent analyst who visits data centers and reports what she actually finds  -  no vendor bias, direct observations from the facilities that literally run the internet.",domain:"cloudpundit.com"},
+    {title:"Uptime Institute: Global Data Center Survey",url:"https://uptimeinstitute.com/resources/research-and-reports",desc:"The most authoritative independent research on data center reliability, power usage, and infrastructure trends. Used by operators, investors, and governments worldwide.",domain:"uptimeinstitute.com"},
   ],
 },
 {
@@ -551,10 +549,10 @@ const LAYERS = [
   ],
   resources:[
     {title:"The Illustrated Transformer  -  Jay Alammar",url:"https://jalammar.github.io/illustrated-transformer/",desc:"The clearest visual explanation of how large language models actually work inside. No maths required. This one article changed how thousands of engineers think about AI. Read it.",domain:"jalammar.github.io"},
-    {title:"LMSYS Chatbot Arena",url:"https://chat.lmsys.org/",desc:"A live leaderboard comparing every major AI model, ranked by human preferences. The most trustworthy benchmark because real humans choose between real outputs  -  it cannot be gamed.",domain:"chat.lmsys.org"},
+    {title:"LMSYS Chatbot Arena",url:"https://lmarena.ai/",desc:"A live leaderboard comparing every major AI model, ranked by human preferences. The most trustworthy benchmark because real humans choose between real outputs  -  it cannot be gamed.",domain:"lmarena.ai"},
     {title:"AI Index 2024  -  Stanford HAI",url:"https://aiindex.stanford.edu/report/",desc:"Stanford's annual 500-page report on AI progress, investment, and policy. Dense, but the single best source for understanding where the field actually stands vs where the hype says it stands.",domain:"aiindex.stanford.edu"},
-    {title:"Anthropic Model Card  -  Claude",url:"https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",desc:"How a leading AI lab evaluates and documents what its model can and cannot do, and what risks it poses. A window into what responsible AI development looks like in practice.",domain:"anthropic.com"},
-    {title:"HELM Benchmarks  -  Stanford",url:"https://crfm.stanford.edu/helm/",desc:"A comprehensive evaluation of AI models across dozens of tasks  -  coding, reasoning, medical knowledge, law, and more. The most rigorous academic model comparison available.",domain:"crfm.stanford.edu"},
+    {title:"Anthropic: Model Cards & Research",url:"https://www.anthropic.com/research",desc:"How a leading AI lab evaluates and documents what its models can and cannot do, and what risks they pose. A window into what responsible AI development looks like in practice.",domain:"anthropic.com"},
+    {title:"HELM Benchmarks  -  Stanford",url:"https://crfm.stanford.edu/helm/latest/",desc:"A comprehensive evaluation of AI models across dozens of tasks  -  coding, reasoning, medical knowledge, law, and more. The most rigorous academic model comparison available.",domain:"crfm.stanford.edu"},
   ],
 },
 {
@@ -563,25 +561,26 @@ const LAYERS = [
   tag:"Layer 5 of 5 - What People Actually Use",
   analogy:"Think of this as the cars, trucks, and buses built using the engine  -  the things everyone actually drives.",
   color:"#10B981",activebg:"rgba(16,185,129,0.1)",
-  desc:"This is what most people interact with every day. GitHub Copilot suggests code as you type. Midjourney creates images from text. Perplexity answers questions with citations. Harvey AI helps lawyers draft contracts. These products are built on top of the AI models in Layer 4  -  they do not create the intelligence, they package it into something useful.",
+  desc:"This is what most people interact with every day. ChatGPT has 300 million weekly users. Claude handles everything from coding to contract review. GitHub Copilot suggests code as you type. Midjourney creates images from text. Perplexity answers questions with citations. These products are built on top of the AI models in Layer 4  -  they do not create the intelligence, they package it into something useful and accessible.",
   stats:[
+    {label:"ChatGPT weekly active users  -  early 2025",value:"300M+",ctx:"The most-used AI application in history. OpenAI reported 300 million weekly users in early 2025, up from 100 million in late 2023. Reached 1 million users in 5 days of launch  -  faster than any product before it."},
     {label:"Total AI application market in 2024",value:"~$45B",ctx:"Products and services built on AI models. Growing faster than any software market in recorded history  -  from enterprise chatbots to creative tools."},
     {label:"GitHub Copilot annual revenue in 2025",value:"$1.5B+",ctx:"An AI that suggests code as developers type. Microsoft launched it in 2021. It crossed $1.5B in annual revenue within four years  -  faster than almost any enterprise software product ever."},
     {label:"Cursor AI code editor valuation in 2025",value:"$9B",ctx:"A startup founded in 2022. By 2025 it was valued at $9 billion  -  reportedly around $100M in annual revenue. Among the fastest B2B software ramps ever recorded."},
     {label:"Midjourney annual revenue",value:"$200M+",ctx:"An AI image generator. No office. No investors. Roughly 40 employees total. $200M in revenue from subscriptions of $10 to $30 per month."},
-    {label:"Perplexity AI daily users in 2024",value:"~15M",ctx:"An AI-powered search engine. Valued at $9B in 2024. Growing fast enough that Google publicly acknowledged it as a competitive threat."},
     {label:"Venture capital invested in AI applications in 2023",value:"$36B",ctx:"Double the year before. More money was invested in AI startups in 2023 than in all of global biotech. 2024 was even higher."},
   ],
   players:[
-    {name:"GitHub Copilot",role:"AI coding assistant  -  owned by Microsoft",stat:"$1.5B+",statlab:"annual revenue 2025"},
+    {name:"ChatGPT (OpenAI)",role:"The world's most-used AI app",stat:"300M+",statlab:"weekly active users, early 2025"},
+    {name:"Claude.ai (Anthropic)",role:"AI assistant known for long-context and safety",stat:"$61B",statlab:"company valuation; backed by Google and Amazon"},
+    {name:"GitHub Copilot (Microsoft)",role:"AI coding assistant inside VS Code and editors",stat:"$1.5B+",statlab:"annual revenue 2025"},
+    {name:"Gemini (Google)",role:"AI assistant integrated into Google Search and Workspace",stat:"1B+",statlab:"users with Google Search access"},
     {name:"Cursor",role:"AI-native code editor",stat:"$9B",statlab:"valuation  -  fastest B2B SaaS ramp recorded"},
-    {name:"Harvey AI",role:"AI built specifically for lawyers",stat:"40%",statlab:"of Am Law 100 firms now use it"},
-    {name:"Midjourney",role:"AI image generation",stat:"$200M+",statlab:"revenue with zero VC funding"},
+    {name:"Midjourney",role:"AI image generation  -  no office, no investors",stat:"$200M+",statlab:"revenue with zero VC funding"},
     {name:"Perplexity AI",role:"AI-powered search engine",stat:"15M",statlab:"daily active users in 2024"},
-    {name:"Salesforce Agentforce",role:"AI agents for business automation",stat:"$35B",statlab:"annual revenue base it sits inside"},
   ],
   forecast:{m24:"$45B",m30:"$600B",cagr:"~55%/yr",
-    text:"We are in the land-grab phase. Think of it like the early smartphone app store  -  thousands of apps launching, most will fail, a handful will become indispensable. There are roughly 10,000 AI startups operating today. Expect consolidation to about 500 lasting companies by 2028. The four biggest fights right now: coding assistants (a $2B market heading toward $50B+); AI agents that complete multi-step tasks autonomously; vertical AI trained specifically for one profession (medicine, law, accounting); and consumer AI companions for tutoring, coaching, and creative work."},
+    text:"ChatGPT, Claude, and Gemini are already the most-used productivity tools in many knowledge workplaces  -  not just toys but daily instruments. We are still in the land-grab phase beneath them: thousands of specialised apps are launching on top of these models, most will fail, a handful will become indispensable. There are roughly 10,000 AI startups operating today. Expect consolidation to about 500 lasting companies by 2028. The four biggest fights: coding assistants (a $2B market heading toward $50B+); AI agents that complete multi-step tasks autonomously; vertical AI trained specifically for one profession (medicine, law, accounting); and consumer AI companions for tutoring, coaching, and creative work."},
   chart:[
     {y:"2024",v:45,label:"$45B"},
     {y:"2025",v:90,label:"$90B"},
@@ -592,7 +591,6 @@ const LAYERS = [
     {y:"2030",v:600,label:"$600B",p:1},
   ],
   resources:[
-    {title:"Sequoia: AI Ascent 2024",url:"https://www.sequoiacap.com/article/ai-ascent-2024/",desc:"Annual survey of real enterprise AI adoption  -  which products are actually paid for vs still in pilots. The most grounded assessment of what is real versus what is hype, from a credible investor.",domain:"sequoiacap.com"},
     {title:"Every.to: Chain of Thought",url:"https://every.to/chain-of-thought",desc:"Long, thoughtful essays on how AI tools are changing professional work  -  writing, thinking, business strategy. The best serious writing on AI applications available anywhere.",domain:"every.to"},
     {title:"Simon Willison's Weblog",url:"https://simonwillison.net/",desc:"A developer who experiments with every new AI tool the day it launches, then reports exactly what it can and cannot do. No hype. Honest, practical results updated almost daily.",domain:"simonwillison.net"},
     {title:"a16z AI Coverage",url:"https://a16z.com/ai/",desc:"Andreessen Horowitz is one of the largest AI investors, so their writing is promotional  -  but their market maps and data on startup growth are genuinely useful signal.",domain:"a16z.com"},
@@ -660,7 +658,7 @@ const LAYERS = [
 <p>The roles most at risk: junior bookkeepers, data entry accountants, entry-level financial analysts producing routine reports, and basic compliance monitoring. A <span class="industry-stat" style="color:#EC4899">2024 World Economic Forum</span> report listed bank tellers and data entry clerks among the fastest-declining roles globally.</p>
 <p><strong style="color:#f0f0f8">The adaptation:</strong> The finance professionals gaining ground are those combining domain expertise with data fluency. Understanding how to prompt, interpret, and audit AI outputs  -  rather than produce the raw numbers  -  is rapidly becoming the core competency. The CFA Institute now includes AI literacy in its updated curriculum.</p>`,
       resources:[
-        {title:"WEF Future of Jobs 2025",url:"https://www.weforum.org/reports/the-future-of-jobs-report-2025/",desc:"The most comprehensive global survey of which jobs are growing, shrinking, and changing. Published by the World Economic Forum with data from 1,000+ companies."},
+        {title:"WEF Future of Jobs 2025",url:"https://www.weforum.org/publications/the-future-of-jobs-report-2025/",desc:"The most comprehensive global survey of which jobs are growing, shrinking, and changing. Published by the World Economic Forum with data from 1,000+ companies."},
         {title:"JPMorgan AI Research",url:"https://www.jpmorgan.com/technology/artificial-intelligence",desc:"One of the most aggressive AI adopters in finance. Their public research shows what the industry is actually deploying right now."},
       ]
     },
@@ -707,12 +705,9 @@ const LAYERS = [
   ],
   closing:"The people who will look back on this moment with equanimity are not the ones who avoided AI  -  they are the ones who got curious about it early, understood it honestly, and used that understanding to do their best work better. Every technology revolution rewards the people who adapt over those who resist. This one is no different.",
   resources:[
-    {title:"WEF Future of Jobs Report 2025",url:"https://www.weforum.org/reports/the-future-of-jobs-report-2025/",desc:"The most comprehensive global study of which jobs are growing, declining, and transforming. Based on surveys of 1,000+ companies across 55 economies. Free to download.",domain:"weforum.org"},
-    {title:"Google: Introduction to Generative AI",url:"https://www.coursera.org/learn/introduction-to-generative-ai",desc:"A free, two-hour introduction to generative AI requiring zero technical background. The best starting point for any professional wanting to understand AI without learning to code.",domain:"coursera.org"},
-    {title:"McKinsey: The State of AI 2024",url:"https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",desc:"Annual survey of how real companies are deploying AI, what productivity gains they are seeing, and which industries are moving fastest. Authoritative and free.",domain:"mckinsey.com"},
-    {title:"LinkedIn Learning: AI for Business",url:"https://www.linkedin.com/learning/topics/ai-for-business",desc:"Practical AI courses aimed at professionals, not engineers. Cover topics from AI strategy to prompt engineering for specific roles. Many available free with a library card.",domain:"linkedin.com/learning"},
-    {title:"Harvard Business Review: AI",url:"https://hbr.org/topic/artificial-intelligence",desc:"The best longform business writing on how AI is reshaping management, strategy, and professional roles. Peer-reviewed perspective without the hype of tech press.",domain:"hbr.org"},
-  ],
+    {title:"WEF Future of Jobs Report 2025",url:"https://www.weforum.org/publications/the-future-of-jobs-report-2025/",desc:"The most comprehensive global study of which jobs are growing, declining, and transforming. Based on surveys of 1,000+ companies across 55 economies. Free to download.",domain:"weforum.org"},
+    {title:"Google: Introduction to Generative AI",url:"https://www.cloudskillsboost.google/course_templates/536",desc:"A free, two-hour introduction to generative AI requiring zero technical background. The best starting point for any professional wanting to understand AI without learning to code.",domain:"cloudskillsboost.google"},
+    {title:"McKinsey: The State of AI 2024",url:"https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",desc:"Annual survey of how real companies are deploying AI, what productivity gains they are seeing, and which industries are moving fastest. Authoritative and free.",domain:"mckinsey.com"},  ],
 }
 ];
 
